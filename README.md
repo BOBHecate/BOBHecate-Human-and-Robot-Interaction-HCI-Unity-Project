@@ -19,3 +19,16 @@ After set up the ultraleap package, headtracking in the scene should be avaliabl
 ## Robotic arm adjustment
 Robotic arm can be adjusted through script Contoller.cs.
 
+Alterations in the physical characteristics of robotic arm by changing this part of code:
+        public float stiffness = 10000f;
+        public float damping = 100f;
+        public float forceLimit = 1000f;
+
+        public float slider = 0.00f;
+
+        public bool rpress;
+
+        public bool lpress;
+        public float speed = 30f; // Units: degree/s
+        public float torque = 100f; // Units: Nm or N
+        public float acceleration = 10f;// Units: m/s^2 / degree/s^2
