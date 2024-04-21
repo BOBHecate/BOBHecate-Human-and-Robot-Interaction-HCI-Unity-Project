@@ -88,7 +88,8 @@ The Update () function includes the Updatedirection1(), Updatedirection2(), and 
         }
 
 The Ink () function is incorporated within the update() function. This function computes the angle of each joint of the robotic arm using the coordinates provided by the target hand in the virtual scene. The parameters consist of the values for the x, y, and z coordinates. After referencing it in the Update() function, the joint angle of the robotic arm will be updated directly.
-        void InK(double x,double y,double z)
+
+      void InK(double x,double y,double z)
         {
             double L1 = 0.24;
             double L2 = 0.24;
