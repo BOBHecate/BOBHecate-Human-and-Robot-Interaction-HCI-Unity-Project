@@ -12,4 +12,6 @@ to install the URDF-Importer .
 After install the URDF-Importer, niryo one robotic arm in the scene should be avaliable.
 
 ## Ultraleap Package
+Import the Ultraleap Package by following the Guidance of https://docs.ultraleap.com/xr-and-tabletop/xr/unity/getting-started/index.html.
 
+After set up the ultraleap package, headtracking in the scene should be avaliable.
